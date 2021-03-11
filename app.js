@@ -24,4 +24,6 @@ container.addEventListener('mouseleave', (e) =>{
     card.style.transition = 'all 0.5s ease';
     card.style.transform = `rotateY(0deg) rotateX(0deg)`;
     face.style.transform = `translateZ(0)`;
+    title.style.transform = `translateZ(0px)`;
+    buttons.style.transform = `translateZ(0px)`;
 });
